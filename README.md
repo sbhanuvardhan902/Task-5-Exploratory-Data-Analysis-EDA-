@@ -1,19 +1,30 @@
-# Task-5-Exploratory-Data-Analysis-EDA-
-The dataset contains customer and sales transaction details. It includes demographic information, purchase patterns, and product categories. After handling missing values using median and mode, the data was analyzed for patterns, relationships, and insights through EDA.
-Dataset: Customer demographics and sales transactions.
+Task 5 - Exploratory Data Analysis (EDA)
+Dataset Description
+The dataset contains customer demographic and sales transaction details.
+It includes information such as age, gender, income, product categories, and purchase amounts.
 
-Features: Age, Gender, Income, Product Category, Purchase Amount, etc.
-Missing Values:
-Numerical columns filled with median.
-Categorical columns filled with mode.
-EDA Process:
-Inspected data structure and missing values.
-Visualized distributions (histograms, boxplots).
-Identified outliers.
-Analyzed feature relationships (pairplots, correlation heatmap).
-Key Insights:
-Age and income influence purchase behavior.
-Certain product categories dominate sales.
-Conclusion:
-Dataset cleaned without data loss.
-Ready for further modeling and business analysis.
+Missing Value Handling
+Numerical columns: Filled with median values.
+
+Categorical columns: Filled with mode values.
+
+EDA Process
+Inspected data structure using .info() and .describe().
+
+Visualized feature distributions using histograms and boxplots.
+
+Detected outliers in numeric data.
+
+Analyzed relationships between features using pairplots and correlation heatmaps.
+
+Key Insights
+Age and income significantly influence purchase behavior.
+
+Certain product categories dominate sales volume.
+
+Some features show strong inter-relationships, useful for modeling.
+
+Conclusion
+The dataset was cleaned and prepared without any row loss.
+
+It is now ready for further predictive modeling and business analysis.
