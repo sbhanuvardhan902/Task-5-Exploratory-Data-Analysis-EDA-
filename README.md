@@ -1,15 +1,15 @@
---Task 5 - Exploratory Data Analysis (EDA)
+-Task 5 - Exploratory Data Analysis (EDA)
 
---Dataset Description
+-Dataset Description
 The dataset contains customer demographic and sales transaction details.
 It includes information such as age, gender, income, product categories, and purchase amounts.
 
---Missing Value Handling
+-Missing Value Handling
 Numerical columns: Filled with median values.
 
 Categorical columns: Filled with mode values.
 
---EDA Process
+-EDA Process
 Inspected data structure using .info() and .describe().
 
 Visualized feature distributions using histograms and boxplots.
